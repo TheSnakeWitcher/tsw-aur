@@ -1,0 +1,8 @@
+
+post_package() {
+    systemctl start pipewire-pulse --user
+}
+
+pre_remove() {
+    systemctl stop pipewire-pulse --user
+}

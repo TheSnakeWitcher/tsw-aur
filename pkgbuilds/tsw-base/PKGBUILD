@@ -1,0 +1,12 @@
+# Maintainer: Your Name <youremail@domain.com>
+pkgname="tsw-base"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="audio management packages"
+arch=('x86_64')
+license=('MIT')
+depends=(
+    base base-devel          # minimal base package for a linux os
+    tsw-kernel               # os kernels
+    pacman-contrib reflector # package management
+)

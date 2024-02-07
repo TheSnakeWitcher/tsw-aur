@@ -1,0 +1,23 @@
+# Maintainer: Your Name <youremail@domain.com>
+pkgname="tsw-dev"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="development packages"
+arch=('x86_64')
+license=('MIT')
+depends=(
+    neovim
+    git
+    github-cli
+    tmux
+
+    tsw-shell
+    tsw-dev-go
+    tsw-dev-rust
+    tsw-dev-lua
+    tsw-dev-typescript
+    # "tsw-dev-julia"
+    # "tsw-dev-latex"
+    # "tsw-dev-solidity"
+    tsw-dev-tools
+)

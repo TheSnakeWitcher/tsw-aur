@@ -1,0 +1,13 @@
+# Maintainer: Your Name <youremail@domain.com>
+pkgname="tsw-social"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="social packages"
+arch=('x86_64')
+license=('MIT')
+install="tsw-social.install"
+depends=(
+    telegram-desktop
+    neochat
+    # gtkcord4-bin
+)

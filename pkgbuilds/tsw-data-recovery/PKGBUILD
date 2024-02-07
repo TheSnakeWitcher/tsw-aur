@@ -1,0 +1,13 @@
+# Maintainer: Your Name <youremail@domain.com>
+pkgname="tsw-data-recovery"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="data recovery packages"
+arch=('x86_64')
+license=('MIT')
+depends=(
+    ddrescue
+    ext4magic
+    extundelete
+    foremost
+)

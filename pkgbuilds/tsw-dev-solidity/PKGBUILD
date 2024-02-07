@@ -1,0 +1,12 @@
+# Maintainer: Alejandro Virelles <thesnakewitcher@gmail.com>
+pkgname="tsw-dev-solidity"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="solidity development packages"
+arch=("x86_64")
+license=("MIT")
+depends=(
+    solidity-bin
+    solang-bin
+)
+md5sums=("SKIP" "SKIP")

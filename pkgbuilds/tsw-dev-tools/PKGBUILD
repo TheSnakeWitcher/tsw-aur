@@ -1,0 +1,11 @@
+# Maintainer: Alejandro Virelles <thesnakewitcher@gmail.com>
+pkgname="tsw-dev-tools"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="development tools packages"
+arch=("x86_64")
+license=("MIT")
+depends=(
+    editorconfig-chcker
+    typos
+)

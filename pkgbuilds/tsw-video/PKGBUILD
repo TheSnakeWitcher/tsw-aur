@@ -1,0 +1,28 @@
+# Maintainer: Alejandro Virelles <thesnakewitcher@gmail.com>
+pkgname="tsw-video"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="video pacakges"
+arch=("x86_64")
+license=("MIT")
+depends=(
+    mesa
+    # "mesa-vdpau"
+    libva
+    # "libva-mesa-driver"
+    vulkan-radeon
+    # "vulkan-mesa-layers"
+    vlc
+    obs-studio
+)
+optdepends=(
+    "lib32-mesa: mesa support for 32 bits architecture"
+    "xf86-video-amdgpu: 2d aceleration on xorg"
+    "xf86-video-ati: 2d aceleration on xorg"
+)
+# source=()
+
+# package() {
+# 	cd "$pkgname-$pkgver"
+# 	make DESTDIR="$pkgdir/" install
+# }

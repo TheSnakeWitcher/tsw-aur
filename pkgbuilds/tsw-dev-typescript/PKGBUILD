@@ -1,0 +1,13 @@
+# Maintainer: Alejandro Virelles <thesnakewitcher@gmail.com>
+pkgname="tsw-dev-typescript"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="typescript development packages"
+arch=("x86_64")
+license=("MIT")
+depends=(
+    pnpm 
+    ts-node
+    deno
+    # lerna
+)

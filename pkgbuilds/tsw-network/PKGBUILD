@@ -1,0 +1,15 @@
+# Maintainer: Your Name <youremail@domain.com>
+pkgname="tsw-network"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="networking packages"
+arch=('x86_64')
+license=('MIT')
+install="$pkgname.install"
+depends=(
+    networkmanager
+    iwd             # wireless connection management(can act as a networkmanager backend for wireless conection)
+    # wpa_supplicant # alternative to iwd
+    ufw             # firewall
+    # wireguard-tools
+)

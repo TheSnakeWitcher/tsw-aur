@@ -1,0 +1,10 @@
+# Maintainer: Alex Virelles <thesnakewitcher@gmail.com>
+pkgname="tsw-tools-ai"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="tools for working with ai"
+arch=('x86_64')
+license=('MIT')
+depends=(
+    ollama     # local LLM management
+)

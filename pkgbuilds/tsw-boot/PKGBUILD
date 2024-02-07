@@ -1,0 +1,11 @@
+# Maintainer: Alex Virelles <thesnakewitcher@gmail.com>
+pkgname="tsw-boot"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="boot packages"
+arch=('x86_64')
+license=('MIT')
+depends=(
+    grub grub-btrfs
+    efibootmgr
+)

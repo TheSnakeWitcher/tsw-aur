@@ -1,0 +1,76 @@
+# Maintainer: Alejandro Virelles <thesnakewitcher@gmail.com>
+pkgname="tsw-apps"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="apps"
+arch=('x86_64')
+license=('MIT')
+depends=(
+    xplr                            # tui file manager
+    qbittorrent                     # torrent client
+    libreoffice-fresh               # office suite
+    libreoffice-extension-texmaths  # office suite extensions
+    pandoc-cli                      # document converter
+    # zotero-bin, mendeleydesktop   # bibliographic reference 
+    # video
+    vlc         # video player/converter
+    obs-studio  # recording (screen, audio, video)
+
+    # from kde-system
+    khelpcenter # kde documentation
+    dolphin     # gui file manager
+
+    # from kde-pim
+    akregator # RSS/news feeds management
+    kalarm    # alarm scheduler
+
+    # from kde-network
+    kdeconnect   # desktop and mobile comunication
+    neochat      # matrix client
+    konversation # IRC client
+    tokodon      # mastodon client
+
+    # from kde-graphics
+    okular           # doc viewer/reader           
+    spectacle        # screenshots
+    gwenview         # image viewer
+    qt5-imageformats # more format support for gwenview
+    digikam          # image organizer
+    skanlite         # image scaning app        
+
+    # audio from kde-multimedia
+    elisa            # music player, alternative: rhythmbox
+    kamoso           # webcam
+    # kasts          # podcast player
+    # juk            # music collection manager
+    # k3b            # cd burning app
+
+
+    # utilities from kde-utilities
+    ark      # compression
+    kdialog  # dialogs
+    # kbackup  # backup ui
+    # filelight  # view disk usage information
+    # kdf        # view disk usage
+    # kbackup    # backup management
+    # kongress   # conferences
+    # ktrip      # public transport assistance
+    # ktimer     # countdown launcher
+    # keditbookmarks     # bookmarks organizer and editor
+    # skanpage     # utility to scan images and multi-page docs(compare with skanlite)
+    # sweeper     # system cleaner
+
+
+    # mangal     # manga downloader
+    # veyon-bin  # classroom management
+    # nextcloud  # personal cloud software
+    #
+    # logseq-desktop-wayland-bin # obsidian replacement
+    # appflowy-bin anytype-bin   # notion/obsidian replacement
+    # mattermost-desktop         # slack and microsoft teams)
+    # focalboard-bin             # open source trello
+    # darktable                  # image editor
+    # brlcad-bin                 # 3rd modeing system)
+    # joplin joplinn-desktop     # note taking and todo)
+    # audacity                   # audio editing
+)

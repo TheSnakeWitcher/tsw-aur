@@ -1,0 +1,12 @@
+# Maintainer: Alex Virelles <thesnakewitcher@gmail.com>
+pkgname="tsw-tools-glamour"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="tools for showing glamour"
+arch=('x86_64')
+license=('MIT')
+depends=(
+    cmatrix  # matrix like characters on screen
+    neofetch # cli system information
+    # edex-ui-bin # hacker like environment
+)
