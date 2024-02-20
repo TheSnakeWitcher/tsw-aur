@@ -9,5 +9,4 @@ install="tsw-social.install"
 depends=(
     telegram-desktop
     neochat
-    # gtkcord4-bin
 )

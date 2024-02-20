@@ -8,5 +8,4 @@ license=('MIT')
 depends=(
     rsync
     rclone
-    # rshare
 )
