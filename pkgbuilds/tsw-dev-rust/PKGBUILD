@@ -7,5 +7,6 @@ arch=("x86_64")
 license=("MIT")
 depends=(
     rustup rust-src mold lld lldb
+    cargo-nextest cargo-binstall
     cbindgen rust-bindgen wasm-bindgen 
 )
