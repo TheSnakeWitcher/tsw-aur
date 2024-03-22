@@ -29,6 +29,7 @@ depends=(
     neochat      # matrix client
     konversation # IRC client
     tokodon      # mastodon client
+    # kget         # download manager
 
     # from kde-graphics
     okular           # doc viewer/reader           
@@ -37,19 +38,17 @@ depends=(
     qt5-imageformats # more format support for gwenview
     digikam          # image organizer
     skanlite         # image scaning app        
+    # skanpage         # image scaning app        
 
     # audio from kde-multimedia
     elisa            # music player, alternative: rhythmbox
     kamoso           # webcam
     # kasts          # podcast player
-    # juk            # music collection manager
-    # k3b            # cd burning app
-
 
     # utilities from kde-utilities
-    ark      # compression
-    kdialog  # dialogs
-    # kbackup  # backup ui
+    ark             # compression
+    kdialog         # dialogs
+    isoimagewriter  # booteable device creation
     # filelight  # view disk usage information
     # kdf        # view disk usage
     # kbackup    # backup management
@@ -60,15 +59,17 @@ depends=(
     # skanpage     # utility to scan images and multi-page docs(compare with skanlite)
     # sweeper     # system cleaner
 
-
+    # ventoy     # bootable management
     # mangal     # manga downloader
     # veyon-bin  # classroom management
     # nextcloud  # personal cloud software
     #
+    # kookbook   # a cookbook creator/manager https://apps.kde.org/sr/kookbook/
     # logseq-desktop-wayland-bin # obsidian replacement
     # appflowy-bin anytype-bin   # notion/obsidian replacement
     # mattermost-desktop         # slack and microsoft teams)
     # focalboard-bin             # open source trello
+    # veyon-bin  # classroom management
     # darktable                  # image editor
     # brlcad-bin                 # 3rd modeing system)
     # joplin joplinn-desktop     # note taking and todo)
