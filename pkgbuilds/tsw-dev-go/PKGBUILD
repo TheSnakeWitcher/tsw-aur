@@ -6,3 +6,4 @@ pkgdesc="go development packages"
 arch=("x86_64")
 license=("MIT")
 depends=(go go-ethereum)
+install=$pkgname.install

@@ -9,4 +9,5 @@ install="tsw-social.install"
 depends=(
     telegram-desktop
     neochat
+    # slack-desktop
 )

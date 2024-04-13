@@ -11,7 +11,6 @@ depends=(
     libreoffice-fresh               # office suite
     libreoffice-extension-texmaths  # office suite extensions
     pandoc-cli                      # document converter
-    # zotero-bin, mendeleydesktop   # bibliographic reference 
     # video
     vlc         # video player/converter
     obs-studio  # recording (screen, audio, video)
@@ -21,6 +20,7 @@ depends=(
     dolphin     # gui file manager
 
     # from kde-pim
+    merkuro   # merkuro calendar and contacts
     akregator # RSS/news feeds management
     kalarm    # alarm scheduler
 
@@ -59,17 +59,17 @@ depends=(
     # skanpage     # utility to scan images and multi-page docs(compare with skanlite)
     # sweeper     # system cleaner
 
+    # zotero-bin # bibliographic reference 
     # ventoy     # bootable management
-    # mangal     # manga downloader
+    # mangal     # manga downloader , alternatives: classroom-assistant, classin-bin, agandapp, planr
     # veyon-bin  # classroom management
     # nextcloud  # personal cloud software
-    #
+
     # kookbook   # a cookbook creator/manager https://apps.kde.org/sr/kookbook/
     # logseq-desktop-wayland-bin # obsidian replacement
     # appflowy-bin anytype-bin   # notion/obsidian replacement
     # mattermost-desktop         # slack and microsoft teams)
     # focalboard-bin             # open source trello
-    # veyon-bin  # classroom management
     # darktable                  # image editor
     # brlcad-bin                 # 3rd modeing system)
     # joplin joplinn-desktop     # note taking and todo)
