@@ -1,6 +1,6 @@
 # Maintainer: Alex Virelles <thesnakewitcher@gmail.com>
 _pkg="tsw-dotfiles"
-pkgname=("$_pkg-meta" "$_pkg-legacy-meta")
+pkgname=("${_pkg}-meta")
 pkgver="1.0.0"
 pkgrel=1
 pkgdesc="tsw dotfiles"
@@ -8,31 +8,24 @@ arch=("x86_64")
 url="https://github.com/TheSnakeWitcher/dotfiles"
 license=("MIT")
 makedepends=("git")
-source=(git+$url)   # source=("git+$url#branch=legacy")
+source=(git+$url)
 md5sums=("SKIP")
 
 
-_pre_package_common() {
+_pre_package() {
     gitdir="$srcdir/dotfiles/.git"
     worktree="$pkgdir/home/$USER"
     mkdir -p $worktree
 }
 
-_post_package_common() {
+_post_package() {
     git --git-dir=$gitdir --work-tree=$worktree checkout $files
     chmod 700 -R $pkgdir
     chown $USER $pkgdir -R
 }
 
-
 package_tsw-dotfiles-meta() {
-    _pre_package_common
+    _pre_package
     files=$(git --git-dir=$gitdir --work-tree=$HOME diff main --name-only)
-    _post_package_common
-}
-
-package_tsw-dotfiles-legacy-meta() {
-    _pre_package_common
-    files=$(git --git-dir=$gitdir --work-tree=$HOME diff legacy --name-only)
-    _post_package_common
+    _post_package
 }
