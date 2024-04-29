@@ -6,6 +6,7 @@ pkgdesc="development tools packages"
 arch=("x86_64")
 license=("MIT")
 depends=(
-    editorconfig-chcker
+    editorconfig-checker
     typos
+    act        # local github action runner
 )
