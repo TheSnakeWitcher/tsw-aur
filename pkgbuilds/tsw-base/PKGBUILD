@@ -9,4 +9,5 @@ depends=(
     base base-devel          # minimal base package for a linux os
     tsw-kernel               # os kernels
     pacman-contrib reflector # package management
+    # https://gitlab.com/Arisa_Snowbell/shiny-mirrors
 )

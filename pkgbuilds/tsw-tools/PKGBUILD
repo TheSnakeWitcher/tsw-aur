@@ -33,6 +33,7 @@ depends=(
     # chezmoi    # dotfiles package manager
     nitroshare # lan file transfer https://archlinux.org/packages/?name=nitroshare
     nextcloud  # local cloud server
+    # syncthing  # open source continuos replication / cluster synchronization thing
     # avahi    # service discovery for linux
     # artem-bin  # pic to ascii art converter
     # urlwatch   # websites notifications
@@ -50,4 +51,6 @@ depends=(
     # portainer-bin(docker management ui)
     # uptime-kuma(self-hostedm monitoring tool)
     # vaultwarden(unofficial bitwarden compatible server)
+
+    # bottles steam wine
 )
