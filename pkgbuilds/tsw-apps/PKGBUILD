@@ -16,8 +16,9 @@ depends=(
     obs-studio  # recording (screen, audio, video)
 
     # from kde-system
-    khelpcenter # kde documentation
-    dolphin     # gui file manager
+    khelpcenter       # kde documentation
+    dolphin           # gui file manager
+    partitionmanaager # gui file manager
 
     # from kde-pim
     merkuro   # merkuro calendar and contacts
@@ -25,17 +26,16 @@ depends=(
     kalarm    # alarm scheduler
 
     # from kde-network
-    kdeconnect   # desktop and mobile comunication
-    neochat      # matrix client
-    konversation # IRC client
-    tokodon      # mastodon client
-    # kget         # download manager
+    kdeconnect  sshfs # desktop and mobile comunication
+    neochat           # matrix client
+    konversation      # IRC client
+    tokodon           # mastodon client
+    # kget            # download manager
 
     # from kde-graphics
     okular           # doc viewer/reader           
     spectacle        # screenshots
-    gwenview         # image viewer
-    qt5-imageformats # more format support for gwenview
+    gwenview qt5-imageformats        # image viewer with qt5-imageformats to support additional formats
     digikam          # image organizer
     skanlite         # image scaning app        
     # skanpage         # image scaning app        
@@ -48,7 +48,7 @@ depends=(
     # utilities from kde-utilities
     ark             # compression
     kdialog         # dialogs
-    isoimagewriter  # booteable device creation
+    # isoimagewriter  # booteable device creation
     # filelight  # view disk usage information
     # kdf        # view disk usage
     # kbackup    # backup management
