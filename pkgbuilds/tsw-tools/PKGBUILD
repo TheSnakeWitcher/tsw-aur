@@ -21,10 +21,13 @@ depends=(
     gum        # shell script enhacer
     glow       # markdown previewer
 
-    qrcp       # io with qr codes 
-    scrcp      # image sharing
+    # encryption
+    age        # file encryption tool
+    veracrypt        # file encryption tool
 
-    pandoc-cli # documentation convertion
+    scrcp            # image sharing
+    qtqr qrcp qrtool # io with qr codes 
+    pandoc-cli       # documentation convertion
 
     # upx        # compressor for binary executables
 
