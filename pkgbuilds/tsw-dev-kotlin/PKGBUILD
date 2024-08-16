@@ -1,0 +1,13 @@
+# Maintainer: Alejandro Virelles <thesnakewitcher@gmail.com>
+pkgname="tsw-dev-kotlin"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="kotlin development packages"
+arch=("x86_64")
+license=("MIT")
+depends=(
+    kotlin
+    gradle
+    sdkmanager
+    android-studio-launcher
+)
