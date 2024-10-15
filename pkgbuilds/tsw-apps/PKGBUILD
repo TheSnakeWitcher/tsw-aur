@@ -21,9 +21,10 @@ depends=(
     partitionmanaager # gui file manager
 
     # from kde-pim
-    merkuro   # merkuro calendar and contacts
-    akregator # RSS/news feeds management
-    kalarm    # alarm scheduler
+    merkuro      # merkuro calendar and contacts
+    akregator    # RSS/news feeds management
+    kalarm       # alarm scheduler
+    qalculate-qt # calculator
 
     # from kde-network
     kdeconnect  sshfs # desktop and mobile comunication
@@ -33,12 +34,12 @@ depends=(
     # kget            # download manager
 
     # from kde-graphics
-    okular           # doc viewer/reader           
-    spectacle        # screenshots
-    gwenview qt5-imageformats        # image viewer with qt5-imageformats to support additional formats
-    digikam          # image organizer
-    skanlite         # image scaning app        
-    # skanpage         # image scaning app        
+    okular pdfarranger        # doc viewer/reader           
+    spectacle                 # screenshots
+    gwenview qt5-imageformats # image viewer with qt5-imageformats to support additional formats
+    digikam                   # image organizer
+    skanlite                  # image scaning app        
+    # skanpage                # image scaning app        
 
     # audio from kde-multimedia
     elisa            # music player, alternative: rhythmbox
