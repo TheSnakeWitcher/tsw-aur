@@ -1,4 +1,4 @@
-# Maintainer: Your Name <youremail@domain.com>
+# Maintainer: Alex Virelles <thesnakewitcher@gmail.com>
 pkgname="tsw-tools"
 pkgver="1.0.0"
 pkgrel=1
@@ -21,9 +21,12 @@ depends=(
     gum        # shell script enhacer
     glow       # markdown previewer
 
+    # engineering
+    # kicad freecad qgis
+
     # encryption
-    age        # file encryption tool
-    veracrypt        # file encryption tool
+    age         # file encryption tool
+    veracrypt   # disk encryption tool
 
     scrcp            # image sharing
     qtqr qrcp qrtool # io with qr codes 
@@ -56,4 +59,10 @@ depends=(
     # vaultwarden(unofficial bitwarden compatible server)
 
     # bottles steam wine
+
+    # AI
+    # aichat
+
+    # malware
+    # calmav # anti malware
 )
