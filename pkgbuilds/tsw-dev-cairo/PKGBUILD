@@ -1,0 +1,13 @@
+# Maintainer: Alejandro Virelles <thesnakewitcher@gmail.com>
+pkgname="tsw-dev-cairo"
+pkgver="1.0.0"
+pkgrel=1
+pkgdesc="cairo development packages"
+arch=("x86_64")
+license=("MIT")
+depends=(
+    cairo-lang 
+    asdf-vm
+    scarb-bin 
+    starkli-bin
+)
