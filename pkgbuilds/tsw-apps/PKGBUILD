@@ -11,9 +11,11 @@ depends=(
     libreoffice-fresh               # office suite
     libreoffice-extension-texmaths  # office suite extensions
     pandoc-cli                      # document converter
+    qalculate-qt                    # calculator
     # video
     vlc         # video player/converter
     obs-studio  # recording (screen, audio, video)
+    # kdenlive    # video editor
 
     # from kde-system
     khelpcenter       # kde documentation
@@ -23,8 +25,8 @@ depends=(
     # from kde-pim
     merkuro      # merkuro calendar and contacts
     akregator    # RSS/news feeds management
+    kleopatra    # certifications
     kalarm       # alarm scheduler
-    qalculate-qt # calculator
 
     # from kde-network
     kdeconnect  sshfs # desktop and mobile comunication
@@ -49,8 +51,8 @@ depends=(
     # utilities from kde-utilities
     ark             # compression
     kdialog         # dialogs
+    filelight       # view disk usage information
     # isoimagewriter  # booteable device creation
-    # filelight  # view disk usage information
     # kdf        # view disk usage
     # kbackup    # backup management
     # kongress   # conferences
