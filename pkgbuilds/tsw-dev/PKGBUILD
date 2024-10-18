@@ -20,6 +20,7 @@ depends=(
     # "tsw-dev-latex"
     # "tsw-dev-solidity"
     texlive-meta # latex
+    tsw-dev-cairo
     tsw-dev-tools
 
     # quarto-cli-bin jupyterlab jupyter-notebook
