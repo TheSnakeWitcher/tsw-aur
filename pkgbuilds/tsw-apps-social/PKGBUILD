@@ -8,7 +8,6 @@ license=('MIT')
 install="tsw-social.install"
 depends=(
     telegram-desktop
-    neochat
+    # matterbridge
     # slack-desktop-wayland
-    # zapzap
 )
