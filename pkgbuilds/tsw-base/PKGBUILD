@@ -6,8 +6,17 @@ pkgdesc="audio management packages"
 arch=('x86_64')
 license=('MIT')
 depends=(
-    base base-devel          # minimal base package for a linux os
-    tsw-kernel               # os kernels
-    pacman-contrib reflector # package management
-    # https://gitlab.com/Arisa_Snowbell/shiny-mirrors
+    # minimal base package for a linux os
+    base       
+    base-devel
+
+    # package management
+    reflector
+    pacman-contrib 
+    # archlinux-contrib
+
+    # tsw-kernel
+    linux-zen
+    linux-zen-headers
+    linux-firmware
 )
