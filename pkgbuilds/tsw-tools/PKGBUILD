@@ -62,6 +62,8 @@ depends=(
 
     # AI
     # aichat
+    tgpt     # ai models comunication from cli
+    ollama   # local LLM management
 
     # malware
     # calmav # anti malware
