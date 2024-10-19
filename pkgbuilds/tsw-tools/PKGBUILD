@@ -21,6 +21,11 @@ depends=(
     gum        # shell script enhacer
     glow       # markdown previewer
 
+    # dev
+    editorconfig-checker
+    typos
+    act        # local github action runner
+
     # engineering
     # kicad freecad qgis
 
