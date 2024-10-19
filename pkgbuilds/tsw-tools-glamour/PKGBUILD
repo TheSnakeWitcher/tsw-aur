@@ -7,6 +7,6 @@ arch=('x86_64')
 license=('MIT')
 depends=(
     cmatrix     # matrix like characters on screen
-    neofetch    # cli system information
+    fastfetch   # cli system information
     edex-ui-bin # hacker like environment
 )
