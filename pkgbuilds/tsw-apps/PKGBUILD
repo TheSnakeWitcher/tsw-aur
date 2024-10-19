@@ -15,12 +15,11 @@ depends=(
     # video
     vlc         # video player/converter
     obs-studio  # recording (screen, audio, video)
-    # kdenlive    # video editor
 
     # from kde-system
     khelpcenter       # kde documentation
     dolphin           # gui file manager
-    partitionmanaager # gui file manager
+    partitionmanager # disk partition manager integration for dolphin
 
     # from kde-pim
     merkuro      # merkuro calendar and contacts
@@ -29,36 +28,32 @@ depends=(
     kalarm       # alarm scheduler
 
     # from kde-network
-    kdeconnect  sshfs # desktop and mobile comunication
-    neochat           # matrix client
-    konversation      # IRC client
-    tokodon           # mastodon client
-    # kget            # download manager
+    kdeconnect sshfs       # desktop and mobile comunication
+    neochat                # matrix client
+    konversation           # IRC client
+    tokodon                # mastodon client
+    kdenetwork-filesharing # shares content on local network using samba with dolphin integration
+    kio-gdrive             # google drive integration for dolphin
+    # krdc krfb            # remote desktop client and sharing
 
     # from kde-graphics
     okular pdfarranger        # doc viewer/reader           
     spectacle                 # screenshots
-    gwenview qt5-imageformats # image viewer with qt5-imageformats to support additional formats
+    gwenview qt6-imageformats # image viewer with qt6-imageformats to support additional formats
     digikam                   # image organizer
     skanlite                  # image scaning app        
-    # skanpage                # image scaning app        
 
     # audio from kde-multimedia
     elisa            # music player, alternative: rhythmbox
     kamoso           # webcam
-    # kasts          # podcast player
+    # kdenlive    # video editor
 
     # utilities from kde-utilities
-    ark             # compression
     kdialog         # dialogs
-    filelight       # view disk usage information
-    # isoimagewriter  # booteable device creation
-    # kdf        # view disk usage
-    # kbackup    # backup management
-    # kongress   # conferences
-    # ktrip      # public transport assistance
-    # ktimer     # countdown launcher
-    # keditbookmarks     # bookmarks organizer and editor
+    ark             # compression UI with dolphin integration
+    isoimagewriter  # booteable device creation UI with dolphin integration
+    filelight       # disk usage information UI with dolphin integration
+    kgpg            # gpg UI
     # skanpage     # utility to scan images and multi-page docs(compare with skanlite)
     # sweeper     # system cleaner
 
@@ -68,7 +63,6 @@ depends=(
     # veyon-bin  # classroom management
     # nextcloud  # personal cloud software
 
-    # kookbook   # a cookbook creator/manager https://apps.kde.org/sr/kookbook/
     # logseq-desktop-wayland-bin # obsidian replacement
     # appflowy-bin anytype-bin   # notion/obsidian replacement
     # mattermost-desktop         # slack and microsoft teams)
