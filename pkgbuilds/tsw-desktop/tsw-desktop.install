@@ -1,0 +1,3 @@
+post_package() {
+    systemctl enable sddm.service
+}

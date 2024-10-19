@@ -6,7 +6,7 @@ pkgdesc="desktop environment"
 arch=('x86_64')
 license=('MIT')
 depends=(
-    plasma-meta             # desktop environment
-    plasma-wayland-session  # display server support for plasma
-    sddm                    # login or display manager
+    plasma-meta              # desktop environment
+    plasma-wayland-protocols # display server support for plasma
+    sddm                     # login or display manager
 )
