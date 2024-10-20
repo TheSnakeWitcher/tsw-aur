@@ -5,5 +5,5 @@ pkgrel=1
 pkgdesc="printer packages"
 arch=("x86_64")
 license=("MIT")
-depends=(cups cups-pdf)
+depends=(cups cups-pdf system-config-printer)
 install=$pkgname.install
