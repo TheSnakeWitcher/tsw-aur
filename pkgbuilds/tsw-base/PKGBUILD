@@ -2,7 +2,7 @@
 pkgname="tsw-base"
 pkgver="1.0.0"
 pkgrel=1
-pkgdesc="audio management packages"
+pkgdesc="base packages"
 arch=('x86_64')
 license=('MIT')
 depends=(
@@ -12,8 +12,9 @@ depends=(
 
     # package management
     reflector
+    pacutils
     pacman-contrib 
-    # archlinux-contrib
+    archlinux-contrib
 
     # tsw-kernel
     linux-zen
