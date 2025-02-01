@@ -71,4 +71,8 @@ depends=(
     # brlcad-bin                 # 3rd modeing system)
     # joplin joplinn-desktop     # note taking and todo)
     # audacity                   # audio editing
+
+    # home/domoticz 
+    # domoticz
+    # home-assistant
 )
