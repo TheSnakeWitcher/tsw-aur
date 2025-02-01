@@ -16,11 +16,10 @@ depends=(
     tsw-dev-rust
     tsw-dev-lua
     tsw-dev-typescript
-    # "tsw-dev-julia"
-    # "tsw-dev-latex"
     # "tsw-dev-solidity"
-    texlive-meta # latex
     tsw-dev-cairo
+    texlive-meta # latex
+    # julia
     tsw-dev-tools
 
     # quarto-cli-bin jupyterlab jupyter-notebook
