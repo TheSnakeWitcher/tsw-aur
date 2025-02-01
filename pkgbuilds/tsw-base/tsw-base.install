@@ -1,3 +1,4 @@
 post_package() {
-    systemctl enable reflector.time
+    systemctl enable reflector.timer
+    systemctl enable paccache.timer
 }
