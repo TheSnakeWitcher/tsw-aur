@@ -75,4 +75,12 @@ depends=(
     # home/domoticz 
     # domoticz
     # home-assistant
+
+    # social
+    telegram-desktop
+    # signal-desktop
+    # tokodon
+    # matterbridge
+    # slack-desktop-wayland
+    # simplex-chat-bin
 )

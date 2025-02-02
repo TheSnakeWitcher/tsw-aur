@@ -1,4 +1,5 @@
 post_install() {
+    # telegram
     xdg-mime default org.telegram.desktop.desktop application/x-xdg-protocol-tg
     xdg-mime default org.telegram.desktop.desktop x-scheme-handler/tg
 }
