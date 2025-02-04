@@ -1,6 +1,5 @@
 # Maintainer: Alex Virelles <thesnakewitcher@gmail.com>
-_pkg="tsw-dotfiles"
-pkgname=("${_pkg}-meta")
+pkgname=tsw-dotfiles
 pkgver="1.0.0"
 pkgrel=1
 pkgdesc="tsw dotfiles"
