@@ -1,5 +1,5 @@
 
-post_package() {
+post_install() {
     systemctl start pipewire-pulse --user
 }
 

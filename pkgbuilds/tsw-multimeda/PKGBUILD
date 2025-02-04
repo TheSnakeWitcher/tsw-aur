@@ -5,4 +5,20 @@ pkgrel=1
 pkgdesc="multimedia packages"
 arch=("x86_64")
 license=("MIT")
-depends=("tsw-audio" "tsw-video")
+install=tsw-multimedia.install
+depends=(
+    # audio management packages
+    pipewire
+    pipewire-alsa
+    pipewire-audio
+    pipewire-pulse
+    wireplumber
+
+    # video management pacakges
+    mesa
+    # "mesa-vdpau"
+    libva
+    # "libva-mesa-driver"
+    vulkan-radeon
+    # "vulkan-mesa-layers"
+)
