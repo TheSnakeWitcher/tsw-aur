@@ -6,6 +6,9 @@ pkgdesc="apps"
 arch=('x86_64')
 license=('MIT')
 depends=(
+    kitty                           # terminal emulator 
+    starship                        # terminal emulator styling
+    atuin                           # history management 
     xplr                            # tui file manager
     qbittorrent                     # torrent client
     libreoffice-fresh               # office suite
