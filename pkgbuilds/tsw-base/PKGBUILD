@@ -16,8 +16,11 @@ depends=(
     pacman-contrib 
     archlinux-contrib
 
-    # tsw-kernel
+    # kernel
     linux-zen
     linux-zen-headers
     linux-firmware
+
+    # shell
+    zsh zsh-doc 
 )
