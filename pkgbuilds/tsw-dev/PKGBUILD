@@ -6,21 +6,27 @@ pkgdesc="development packages"
 arch=('x86_64')
 license=('MIT')
 depends=(
-    neovim
-    git
-    github-cli
-    tmux
+    # rust
+    rustup sccache mold lldb            # toolchain tools
+    cargo-nextest cargo-binstall        # cargo plugins
+    cbindgen rust-bindgen wasm-bindgen  # cross-compiling
 
-    tsw-shell
-    tsw-dev-go
-    tsw-dev-rust
-    tsw-dev-lua
-    tsw-dev-typescript
-    # "tsw-dev-solidity"
-    tsw-dev-cairo
+    # go
+    go go-ethereum
+
+    # typescript
+    pnpm ts-node deno
+    # lerna
+
+    # lua
+    lua lua51 luajit luarocks
+
+    # python
+    # uv
+
     texlive-meta # latex
     # julia
-    tsw-dev-tools
 
-    # quarto-cli-bin jupyterlab jupyter-notebook
+    # cairo
+    # cairo-lang asdf-vm scarb-bin starkli-bin
 )

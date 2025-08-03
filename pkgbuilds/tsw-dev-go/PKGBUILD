@@ -1,9 +1,0 @@
-# Maintainer: Alejandro Virelles <thesnakewitcher@gmail.com>
-pkgname="tsw-dev-go"
-pkgver="1.0.0"
-pkgrel=1
-pkgdesc="go development packages"
-arch=("x86_64")
-license=("MIT")
-depends=(go go-ethereum)
-install=$pkgname.install
