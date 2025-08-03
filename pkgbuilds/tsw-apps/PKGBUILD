@@ -6,84 +6,40 @@ pkgdesc="apps"
 arch=('x86_64')
 license=('MIT')
 depends=(
-    kitty                           # terminal emulator 
-    starship                        # terminal emulator styling
-    atuin                           # history management 
-    xplr                            # tui file manager
-    qbittorrent                     # torrent client
+    # general
     libreoffice-fresh               # office suite
     libreoffice-extension-texmaths  # office suite extensions
-    pandoc-cli                      # document converter
     qalculate-qt                    # calculator
-    # video
-    vlc         # video player/converter
-    obs-studio  # recording (screen, audio, video)
+    qbittorrent                     # torrent client
+    telegram-desktop                # social
 
     # from kde-system
-    khelpcenter       # kde documentation
-    dolphin           # gui file manager
+    dolphin          # gui file manager
     partitionmanager # disk partition manager integration for dolphin
-
-    # from kde-pim
-    merkuro      # merkuro calendar and contacts
-    akregator    # RSS/news feeds management
-    kleopatra    # certifications
-    kalarm       # alarm scheduler
+    # utilities from kde-utilities
+    ark             # compression UI with dolphin integration
+    filelight       # disk usage information UI with dolphin integration
+    isoimagewriter  # booteable device creation UI with dolphin integration
 
     # from kde-network
     kdeconnect sshfs       # desktop and mobile comunication
-    neochat                # matrix client
-    konversation           # IRC client
-    tokodon                # mastodon client
     kdenetwork-filesharing # shares content on local network using samba with dolphin integration
     kio-gdrive             # google drive integration for dolphin
-    # krdc krfb            # remote desktop client and sharing
 
     # from kde-graphics
-    okular pdfarranger        # doc viewer/reader           
-    spectacle                 # screenshots
-    gwenview qt6-imageformats # image viewer with qt6-imageformats to support additional formats
-    digikam                   # image organizer
-    skanlite                  # image scaning app        
+    okular pdfarranger  # doc viewer/reader           
+    gwenview            # image viewer
 
+    # multimedia
+    vlc         # video player/converter
+    obs-studio  # recording (screen, audio, video)
     # audio from kde-multimedia
-    elisa            # music player, alternative: rhythmbox
+    elisa            # music player
     kamoso           # webcam
-    # kdenlive    # video editor
 
-    # utilities from kde-utilities
-    kdialog         # dialogs
-    ark             # compression UI with dolphin integration
-    isoimagewriter  # booteable device creation UI with dolphin integration
-    filelight       # disk usage information UI with dolphin integration
-    kgpg            # gpg UI
-    # skanpage     # utility to scan images and multi-page docs(compare with skanlite)
-    # sweeper     # system cleaner
-
-    # zotero-bin # bibliographic reference 
-    # ventoy     # bootable management
-    # mangal     # manga downloader , alternatives: classroom-assistant, classin-bin, agandapp, planr
-    # veyon-bin  # classroom management
-    # nextcloud  # personal cloud software
-
-    # logseq-desktop-wayland-bin # obsidian replacement
-    # appflowy-bin anytype-bin   # notion/obsidian replacement
-    # mattermost-desktop         # slack and microsoft teams)
-    # focalboard-bin             # open source trello
-    # darktable                  # image editor
-    # brlcad-bin                 # 3rd modeing system)
-    # joplin joplinn-desktop     # note taking and todo)
-    # audacity                   # audio editing
-
-    # home/domoticz 
-    # domoticz
-    # home-assistant
-
-    # social
-    telegram-desktop
-    # signal-desktop
-    # tokodon
-    # matterbridge
-    # slack-desktop-wayland
-    # simplex-chat-bin
+    # from kde-pim
+    akregator    # RSS/news feeds management
+    kleopatra    # certifications
+    kalarm       # alarm scheduler
+    merkuro      # merkuro calendar and contacts
 )
