@@ -1,0 +1,3 @@
+cmatrix     # matrix like characters on screen
+fastfetch   # cli system information
+edex-ui-bin # hacker like environment

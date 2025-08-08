@@ -1,0 +1,14 @@
+# audio management packages
+wireplumber
+pipewire
+pipewire-alsa
+pipewire-audio
+pipewire-pulse
+
+# video management pacakges
+mesa
+# "mesa-vdpau"
+libva
+# "libva-mesa-driver"
+vulkan-radeon
+# "vulkan-mesa-layers"

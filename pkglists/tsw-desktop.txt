@@ -1,0 +1,4 @@
+plasma-meta    # desktop environment
+sddm           # login or display manager
+kitty starship # terminal emulator 
+nerd-fonts     # fonts

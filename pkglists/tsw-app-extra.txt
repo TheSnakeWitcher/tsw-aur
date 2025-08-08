@@ -1,0 +1,25 @@
+# from kde-graphics
+digikam             # image organizer
+skanlite            # image scaning app        
+
+# from kde-network
+tokodon              # mastodon client
+neochat              # matrix client
+konversation         # IRC client
+krdc krfb            # remote desktop client and sharing
+
+# utilities from kde-utilities
+kdialog   # dialogs
+kgpg      # gpg UI
+skanpage  # utility to scan images and multi-page docs(compare with skanlite)
+sweeper   # system cleaner
+
+# zotero-bin # bibliographic reference 
+# ventoy     # bootable management
+# mangal     # manga downloader , alternatives: classroom-assistant, classin-bin, agandapp, planr
+# veyon-bin  # classroom management
+# nextcloud  # personal cloud software
+
+# logseq-desktop-wayland-bin # obsidian replacement
+# appflowy-bin anytype-bin   # notion/obsidian replacement
+# mattermost-desktop         # slack and microsoft teams

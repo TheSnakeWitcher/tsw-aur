@@ -1,0 +1,4 @@
+networkmanager
+iwd             # wireless connection management(can act as a networkmanager backend for wireless conection)
+ufw             # firewall
+wireguard-tools # vpn

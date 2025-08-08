@@ -1,0 +1,14 @@
+base base-devel # minimal base packages for a linux os
+efibootmgr      # boot
+
+# kernel
+linux-zen linux-zen-headers linux-firmware
+
+zsh    # shell
+iwd    # network
+neovim # code
+git    # version control system
+
+# package management
+reflector       # mirrors
+pacman-contrib  # cache

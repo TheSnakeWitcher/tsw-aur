@@ -1,0 +1,9 @@
+# synchronization/backup packages
+rsync
+rclone
+
+# data recovery packages
+ddrescue
+foremost
+# ext4magic
+# extundelete

@@ -1,0 +1,3 @@
+pass pass-otp # pass-coffin
+# lynis       # Security and system auditing tool to harden Unix/Linux systems
+# clamav      # Anti-virus toolkit for unix

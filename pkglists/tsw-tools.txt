@@ -1,0 +1,78 @@
+neovide          # nvim ui
+tmux             # terminal multiplexer
+github-cli       # hosting
+aws-cli-v2       # cloud
+rebuild-detector # package rebuild checker
+jq jc yq         # cli json management , check jo, jshon
+htmlq            # jq for html
+unp              # unpack everything
+xsv              # csv management in cli
+fpm              # software packaging management
+zoxide           # fs navigation
+fzf              # fuzzy finder
+fd               # fs searching
+ripgrep          # content searching
+sad              # batch file editing
+atuin            # cli history
+procs            # process management
+dust             # storage visualization
+gum              # shell script enhacer
+glow             # markdown previewer
+pandoc-cli       # documentation convertion
+hyperfine        # benchmarking tool
+lf               # tui file manager
+
+# btop           # monitoring
+# ciano          # simple multimedia converter
+
+# dev
+# quarto-cli-bin jupyterlab jupyter-notebook
+typos                # source code spellchecker
+act                  # local github action runner
+direnv               # env variables management
+editorconfig-checker # .editorconfig validator
+
+# encryption
+age         # file encryption tool
+veracrypt   # disk encryption tool
+
+scrcp            # image sharing
+qtqr qrcp qrtool # io with qr codes 
+
+# upx        # compressor for binary executables
+# dnote-cli-bin  # cli notes
+
+# chezmoi    # dotfiles package manager
+nitroshare # lan file transfer https://archlinux.org/packages/?name=nitroshare
+nextcloud  # local cloud server
+# syncthing  # open source continuos replication / cluster synchronization thing
+# avahi    # service discovery for linux
+# artem-bin  # pic to ascii art converter
+# urlwatch   # websites notifications
+
+# "graphviz"
+# quarto-cli-bin
+# gocr # ocr
+# hoard # cli command organizer
+# ffmpeg # video converter, alternative: handbrake  
+#
+# czkawka-gui-bin # find duplicates/empty/similiar files
+#
+# metabase(business intelligence and analytics)
+# syncthing
+# portainer-bin(docker management ui)
+# uptime-kuma(self-hostedm monitoring tool)
+# vaultwarden(unofficial bitwarden compatible server)
+
+# bottles steam wine
+
+# AI
+# aichat
+tgpt     # ai models comunication from cli
+ollama   # local LLM management
+
+# hw
+# usbutils hwinfo
+
+# malware
+# calmav # anti malware

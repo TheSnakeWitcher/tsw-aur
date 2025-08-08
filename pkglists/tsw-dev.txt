@@ -1,0 +1,27 @@
+# rust
+rustup sccache mold lldb            # toolchain
+cargo-nextest cargo-binstall        # cargo plugins
+cbindgen rust-bindgen wasm-bindgen  # cross-compiling
+
+# go
+go
+
+# typescript
+pnpm ts-node deno
+
+# lua
+# lua    # required by wireplumber
+# luajit # required by neovim
+# luarocks
+
+# python
+# uv ruff
+
+texlive-meta # latex
+# julia
+
+# cairo
+# cairo-lang asdf-vm scarb-bin starkli-bin
+
+# engineering
+# kicad freecad qgis

@@ -1,0 +1,36 @@
+# general
+libreoffice-fresh               # office suite
+libreoffice-extension-texmaths  # office suite extensions
+qalculate-qt                    # calculator
+qbittorrent                     # torrent client
+telegram-desktop                # social
+
+# from kde-system
+dolphin          # gui file manager
+partitionmanager # disk partition manager integration for dolphin
+# utilities from kde-utilities
+ark             # compression UI with dolphin integration
+filelight       # disk usage information UI with dolphin integration
+isoimagewriter  # booteable device creation UI with dolphin integration
+
+# from kde-network
+kdeconnect sshfs       # desktop and mobile comunication
+kdenetwork-filesharing # shares content on local network using samba with dolphin integration
+kio-gdrive             # google drive integration for dolphin
+
+# from kde-graphics
+okular pdfarranger  # doc viewer/reader           
+gwenview            # image viewer
+
+# multimedia
+vlc         # video player/converter
+obs-studio  # recording (screen, audio, video)
+# audio from kde-multimedia
+elisa            # music player
+kamoso           # webcam
+
+# from kde-pim
+akregator    # RSS/news feeds management
+kleopatra    # certifications
+kalarm       # alarm scheduler
+merkuro      # merkuro calendar and contacts
