@@ -1,5 +1,0 @@
-post_package() {
-    systemctl enable reflector.timer # update mirrors weekly
-    systemctl enable paccache.timer  # delete pacman cache weekly
-    systemctl enable pkgstats.timer  # send package usage anonimously
-}
