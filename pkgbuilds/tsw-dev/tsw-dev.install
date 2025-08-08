@@ -1,4 +1,0 @@
-post_package() {
-    go env -w GOCACHE=/home/$USER/.cache/go/build
-    go env -w GOMODCACHE=/home/$USER/.cache/go/pkg/mod
-}
