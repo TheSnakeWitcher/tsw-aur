@@ -1,8 +1,0 @@
-
-post_install() {
-    systemctl start pipewire-pulse --user
-}
-
-pre_remove() {
-    systemctl stop pipewire-pulse --user
-}
