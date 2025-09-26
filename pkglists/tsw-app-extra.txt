@@ -1,3 +1,6 @@
+# kde-system
+partitionmanager # disk partition manager integration for dolphin
+
 # from kde-graphics
 digikam             # image organizer
 skanlite            # image scaning app        
@@ -14,11 +17,11 @@ kgpg      # gpg UI
 skanpage  # utility to scan images and multi-page docs(compare with skanlite)
 sweeper   # system cleaner
 
+# kde-multimedia
+kamoso    # webcam
+
 # zotero-bin # bibliographic reference 
-# ventoy     # bootable management
 # mangal     # manga downloader , alternatives: classroom-assistant, classin-bin, agandapp, planr
-# veyon-bin  # classroom management
-# nextcloud  # personal cloud software
 
 # logseq-desktop-wayland-bin # obsidian replacement
 # appflowy-bin anytype-bin   # notion/obsidian replacement

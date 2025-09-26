@@ -7,7 +7,6 @@ telegram-desktop                # social
 
 # from kde-system
 dolphin          # gui file manager
-partitionmanager # disk partition manager integration for dolphin
 # utilities from kde-utilities
 ark             # compression UI with dolphin integration
 filelight       # disk usage information UI with dolphin integration
@@ -27,7 +26,6 @@ vlc         # video player/converter
 obs-studio  # recording (screen, audio, video)
 # audio from kde-multimedia
 elisa            # music player
-kamoso           # webcam
 
 # from kde-pim
 akregator    # RSS/news feeds management
