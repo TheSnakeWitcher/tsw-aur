@@ -1,4 +1,5 @@
 neovide          # nvim ui
+difftastic       # better/structural git diff viewer
 tmux             # terminal multiplexer
 github-cli       # hosting
 aws-cli-v2       # cloud
@@ -32,21 +33,27 @@ act                  # local github action runner
 direnv               # env variables management
 editorconfig-checker # .editorconfig validator
 
+# AI
+# aichat
+ollama   # local LLM management
+tgpt     # ai models comunication from cli
+
 # encryption
 age         # file encryption tool
 veracrypt   # disk encryption tool
 
-scrcp            # image sharing
-qtqr qrcp qrtool # io with qr codes 
+qtqr qrtool # io with qr codes 
+scrcp       # image sharing
+qrcp        # file sharing using qr over wify 
 
-# upx        # compressor for binary executables
-# dnote-cli-bin  # cli notes
+# upx           # compressor for binary executables
+# dnote-cli-bin # cli notes
 
 # chezmoi    # dotfiles package manager
-nitroshare # lan file transfer https://archlinux.org/packages/?name=nitroshare
-nextcloud  # local cloud server
+nitroshare   # lan file transfer https://archlinux.org/packages/?name=nitroshare
+nextcloud    # local cloud server
 # syncthing  # open source continuos replication / cluster synchronization thing
-# avahi    # service discovery for linux
+# avahi      # service discovery for linux
 # artem-bin  # pic to ascii art converter
 # urlwatch   # websites notifications
 
@@ -55,24 +62,10 @@ nextcloud  # local cloud server
 # gocr # ocr
 # hoard # cli command organizer
 # ffmpeg # video converter, alternative: handbrake  
-#
 # czkawka-gui-bin # find duplicates/empty/similiar files
-#
 # metabase(business intelligence and analytics)
 # syncthing
 # portainer-bin(docker management ui)
 # uptime-kuma(self-hostedm monitoring tool)
 # vaultwarden(unofficial bitwarden compatible server)
-
 # bottles steam wine
-
-# AI
-# aichat
-tgpt     # ai models comunication from cli
-ollama   # local LLM management
-
-# hw
-# usbutils hwinfo
-
-# malware
-# calmav # anti malware
