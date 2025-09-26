@@ -1,3 +1,6 @@
 pass pass-otp # pass-coffin
+ufw           # firewall
 # lynis       # Security and system auditing tool to harden Unix/Linux systems
 # clamav      # Anti-virus toolkit for unix
+
+# tools: https://www.youtube.com/watch?v=USNy6fwJyME
