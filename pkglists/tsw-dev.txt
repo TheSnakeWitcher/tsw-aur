@@ -10,8 +10,6 @@ go
 pnpm ts-node deno
 
 # lua
-# lua    # required by wireplumber
-# luajit # required by neovim
 # luarocks
 
 # python
