@@ -1,11 +1,12 @@
 krdc krfb   # remote desktop client and sharing
 sweeper     # system cleaner
 
-ventoy     # bootable management
-mangal     # manga downloader , alternatives: classroom-assistant, classin-bin, agandapp, planr
-veyon-bin  # classroom management
-nextcloud  # personal cloud software
+ventoy       # bootable management
+virt-manager # gui for libvirt
+waydroid     # android emulator
+guitarix     # pro audio
+nextcloud    # personal cloud software
+veyon-bin    # classroom management
 
-home/domoticz 
-domoticz
-home-assistant
+# home/domoticz 
+domoticz home-assistant
