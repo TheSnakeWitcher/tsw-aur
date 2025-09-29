@@ -1,6 +1,9 @@
 pass pass-otp # pass-coffin
-ufw           # firewall
-# lynis       # Security and system auditing tool to harden Unix/Linux systems
-# clamav      # Anti-virus toolkit for unix
+ufw           # firewall opensnitch firewalld
+
+# tor
+torbrowser-launcher
 
 # tools: https://www.youtube.com/watch?v=USNy6fwJyME
+# lynis       # security and system auditing tool to harden unix/linux systems
+# clamav      # anti-virus toolkit for unix
