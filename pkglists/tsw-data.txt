@@ -1,4 +1,6 @@
 # synchronization/backup packages
+# https://gitlab.com/finewolf-projects/restic-wrapper-scripts
+restic rsnapshot
 rsync
 rclone
 
