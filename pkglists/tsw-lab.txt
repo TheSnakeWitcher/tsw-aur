@@ -1,6 +1,3 @@
-krdc krfb   # remote desktop client and sharing
-sweeper     # system cleaner
-
 ventoy       # bootable management
 virt-manager # gui for libvirt
 waydroid     # android emulator
