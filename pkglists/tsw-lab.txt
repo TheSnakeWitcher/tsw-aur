@@ -1,9 +1,22 @@
-ventoy       # bootable management
+# virtualization
 virt-manager # gui for libvirt
-waydroid     # android emulator
-guitarix     # pro audio
-nextcloud    # personal cloud software
-veyon-bin    # classroom management
+qemu-full    # hardware emulator
+virtualbox   # optional hypervisor
+
+# bootable management
+#! ventoy-bin iventoy-bin   
+
+# android emulator
+#! waydroid
+
+# personal cloud software
+#! nextcloud
+
+# pro audio
+#! guitarix
+
+# classroom management
+#! veyon-bin
 
 # home/domoticz 
-domoticz home-assistant
+#! domoticz home-assistant
