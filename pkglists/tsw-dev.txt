@@ -3,23 +3,13 @@ rustup sccache mold lldb            # toolchain
 cargo-nextest cargo-binstall        # cargo plugins
 cbindgen rust-bindgen wasm-bindgen  # cross-compiling
 
-# go
+zig
 go
-
-# typescript
-pnpm ts-node deno
-
-# lua
-# luarocks
-
-# python
-# uv ruff
-
-texlive-meta # latex
-# julia
+julia
+pnpm ts-node deno  # typescript
+uv ruff            # python
+texlive-meta       # latex
+kicad freecad qgis # engineering
 
 # cairo
-# cairo-lang asdf-vm scarb-bin starkli-bin
-
-# engineering
-# kicad freecad qgis
+#! cairo-lang asdf-vm scarb-bin starkli-bin
