@@ -10,7 +10,6 @@ dolphin          # gui file manager
 # utilities from kde-utilities
 ark             # compression UI with dolphin integration
 filelight       # disk usage information UI with dolphin integration
-isoimagewriter  # booteable device creation UI with dolphin integration
 
 # from kde-network
 kdeconnect sshfs       # desktop and mobile comunication

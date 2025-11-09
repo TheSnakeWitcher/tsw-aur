@@ -12,10 +12,11 @@ konversation         # IRC client
 krdc krfb            # remote desktop client and sharing
 
 # utilities from kde-utilities
-kdialog   # dialogs
-kgpg      # gpg UI
-skanpage  # utility to scan images and multi-page docs(compare with skanlite)
-sweeper   # system cleaner
+kdialog         # dialogs
+isoimagewriter  # booteable device creation UI with dolphin integration
+kgpg            # gpg UI
+skanpage        # utility to scan images and multi-page docs(compare with skanlite)
+sweeper         # system cleaner
 
 # kde-multimedia
 kamoso    # webcam
