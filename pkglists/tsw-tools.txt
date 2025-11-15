@@ -23,8 +23,12 @@ pandoc-cli       # documentation convertion
 hyperfine        # benchmarking tool
 lf               # tui file manager
 
-# btop           # monitoring
-# ciano          # simple multimedia converter
+# btop      # monitoring
+# ciano     # simple multimedia converter
+# gocr      # ocr
+qtqr qrtool # io with qr codes 
+scrcp       # image sharing
+qrcp        # file sharing using qr over wify 
 
 # dev
 # quarto-cli-bin jupyterlab jupyter-notebook
@@ -42,30 +46,6 @@ tgpt     # ai models comunication from cli
 age         # file encryption tool
 veracrypt   # disk encryption tool
 
-qtqr qrtool # io with qr codes 
-scrcp       # image sharing
-qrcp        # file sharing using qr over wify 
-
-# upx           # compressor for binary executables
-# dnote-cli-bin # cli notes
-
+# upx        # compressor for binary executables
 # chezmoi    # dotfiles package manager
-nitroshare   # lan file transfer https://archlinux.org/packages/?name=nitroshare
-nextcloud    # local cloud server
-# syncthing  # open source continuos replication / cluster synchronization thing
-# avahi      # service discovery for linux
 # artem-bin  # pic to ascii art converter
-# urlwatch   # websites notifications
-
-# "graphviz"
-# quarto-cli-bin
-# gocr # ocr
-# hoard # cli command organizer
-# ffmpeg # video converter, alternative: handbrake  
-# czkawka-gui-bin # find duplicates/empty/similiar files
-# metabase(business intelligence and analytics)
-# syncthing
-# portainer-bin(docker management ui)
-# uptime-kuma(self-hostedm monitoring tool)
-# vaultwarden(unofficial bitwarden compatible server)
-# bottles steam wine

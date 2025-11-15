@@ -3,14 +3,16 @@ virt-manager # gui for libvirt
 qemu-full    # hardware emulator
 virtualbox   # optional hypervisor
 
+nextcloud    # personal cloud software
+nitroshare   # crossplatform lan file transfer
+avahi        # network service discovery(DNS-sd) for linux
+urlwatch     # websites notifications
+
 # bootable management
 #! ventoy-bin iventoy-bin   
 
 # android emulator
 #! waydroid
-
-# personal cloud software
-#! nextcloud
 
 # pro audio
 #! guitarix
@@ -20,3 +22,6 @@ virtualbox   # optional hypervisor
 
 # home/domoticz 
 #! domoticz home-assistant
+
+# self-hosted monitoring tool
+#! uptime-kuma

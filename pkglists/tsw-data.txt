@@ -3,6 +3,7 @@
 restic rsnapshot
 rsync
 rclone
+# syncthing
 
 # data recovery packages
 ddrescue
