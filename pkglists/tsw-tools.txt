@@ -1,6 +1,5 @@
 neovide          # nvim ui
 difftastic       # better/structural git diff viewer
-tmux             # terminal multiplexer
 github-cli       # hosting
 aws-cli-v2       # cloud
 rebuild-detector # package rebuild checker
