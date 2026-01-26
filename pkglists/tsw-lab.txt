@@ -8,6 +8,12 @@ nitroshare   # crossplatform lan file transfer
 avahi        # network service discovery(DNS-sd) for linux
 urlwatch     # websites notifications
 
+# window integration
+#! winboat   
+
+# wireless cross-device file-transfer
+#! localsend
+
 # bootable management
 #! ventoy-bin iventoy-bin   
 
