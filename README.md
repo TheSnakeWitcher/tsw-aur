@@ -1,3 +1,7 @@
+# To packages from aur use
+
+paru -S $(rg '#!' $file | sd '#!' '')
+
 # Structure
 
 `tsw-base`: a minimal bootable system ready to build
