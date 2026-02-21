@@ -6,10 +6,10 @@ cbindgen rust-bindgen wasm-bindgen  # cross-compiling
 zig
 go
 julia
-pnpm ts-node deno  # typescript
-uv ruff            # python
-texlive-meta       # latex
-kicad freecad qgis # engineering
+bun deno pnpm ts-node # typescript
+uv ruff               # python
+texlive-meta          # latex
+kicad freecad qgis    # engineering
 
 # cairo
 #! cairo-lang asdf-vm scarb-bin starkli-bin
