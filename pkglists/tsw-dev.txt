@@ -7,7 +7,7 @@ zig
 go
 julia
 bun deno pnpm ts-node # typescript
-uv ruff               # python
+uv ruff maturin       # python
 texlive-meta          # latex
 kicad freecad qgis    # engineering
 
