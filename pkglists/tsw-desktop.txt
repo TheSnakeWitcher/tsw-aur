@@ -1,3 +1,4 @@
-plasma-meta    # desktop environment
-kitty starship # terminal emulator 
-nerd-fonts     # fonts
+plasma-meta   # desktop environment
+ghostty       # terminal emulator 
+starship      # shell style
+nerd-fonts    # fonts
